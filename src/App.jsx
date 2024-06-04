@@ -4,6 +4,7 @@ import Navbar  from './components/Navbar'
 import Header from './components/Header'
 import Solved from './components/Solved'
 import Metric from './components/Metric'
+import MarqueeElement from './components/MarqueeElement'
 function App() {
   const [count, setCount] = useState(0)
 
@@ -14,6 +15,7 @@ function App() {
       <Header/>
       <Solved/>
       <Metric/>
+      <MarqueeElement/>
     </>
   )
 }

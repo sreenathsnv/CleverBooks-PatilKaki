@@ -5,13 +5,10 @@
     justify-content: space-around;
     width: 100vw;
     margin:0;
-    padding:0;
-    background: url('../assets/home-hero-bg.svg');
-    height: 100vh;
-    background-position: 50% 100%, 0 0;
-    background-repeat: no-repeat, repeat;
-    background-size: 100%, auto;
-    padding: 3vh 2vw 3vh 2vw;
+    padding: 5vh 2vw;
+    background: url('../assets/home-hero-bg.svg') no-repeat center;
+    height: 116vh;
+    background-size:cover;
 }
 .header-contents{
 
