@@ -1,0 +1,15 @@
+
+.metric-container{
+
+    display: flex;
+    flex-direction: column;
+    min-height: 80vh;
+    width: 100%;
+    background: url('../assets/home-hero-bg.svg');
+}
+.scroll-element{
+
+    display: flex;
+    min-width: 20vw;
+    min-height: 20vh;
+}
