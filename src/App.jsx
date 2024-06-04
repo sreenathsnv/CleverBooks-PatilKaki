@@ -2,6 +2,7 @@ import { useState } from 'react'
 
 import Navbar  from './components/Navbar'
 import Header from './components/Header'
+import Solved from './components/Solved'
 function App() {
   const [count, setCount] = useState(0)
 
@@ -10,6 +11,7 @@ function App() {
 
       <Navbar/>
       <Header/>
+      <Solved/>
     </>
   )
 }
