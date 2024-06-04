@@ -126,13 +126,14 @@ filter: progid: DXImageTransform.Microsoft.gradient( startColorstr="#AE74DB", en
     position: fixed;
     top: 11vh;
     right: 0;
-    height: 60vh;
+    min-height: 60vh;
+    height: auto;
     padding-bottom:3vh;
     padding-left: 10vw;
     font-size: 2vw;
     padding-top:3vh;
     width: 100vw;
-    background: rgba(255, 255, 255, 0.872);
+    background: rgb(255, 255, 255);
     flex-direction: column;
     align-items: flex-start;
     transform: translateX(-100%);

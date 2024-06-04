@@ -5,6 +5,7 @@
     height:20vh;
     margin: 1vh;
     margin-bottom: 0vh;
+    overflow-x: hidden;
 }
 .marquee{
 
