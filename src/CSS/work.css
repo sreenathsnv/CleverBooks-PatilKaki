@@ -193,7 +193,7 @@
     .works-header{
         height:40vh;
         width:98vw;
-        margin-left:10vw;
+        margin-left: 0;
     }
     .works-head{
         font-size: 5vh;
