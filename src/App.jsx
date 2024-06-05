@@ -6,6 +6,7 @@ import MarqueeElement from './components/MarqueeElement'
 import Story from './components/Story'
 import Services from './components/Services'
 import Carousel from './components/Carousel'
+import Founder from './components/Founder'
 
 
 function App() {
@@ -22,6 +23,7 @@ function App() {
       <Story/>
       <Services/>
       <Carousel/>
+      <Founder/>
     </>
   )
 }

@@ -100,6 +100,8 @@
 
         width: 95vw;
         padding: 5vw;
+        min-height: 50vh;
+        
     }
     .carousels{
         display: flex;
