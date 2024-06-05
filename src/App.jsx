@@ -6,6 +6,7 @@ import Solved from './components/Solved'
 import Metric from './components/Metric'
 import MarqueeElement from './components/MarqueeElement'
 import Story from './components/Story'
+import Services from './components/Services'
 function App() {
   const [count, setCount] = useState(0)
 
@@ -18,6 +19,7 @@ function App() {
       <Metric/>
       <MarqueeElement/>
       <Story/>
+      <Services/>
     </>
   )
 }
