@@ -7,6 +7,7 @@ import Story from './components/Story'
 import Services from './components/Services'
 import Carousel from './components/Carousel'
 import Founder from './components/Founder'
+import PopularWork from './components/PopularWork'
 
 
 function App() {
@@ -24,6 +25,7 @@ function App() {
       <Services/>
       <Carousel/>
       <Founder/>
+      <PopularWork/>
     </>
   )
 }
