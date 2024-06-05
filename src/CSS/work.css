@@ -26,7 +26,7 @@
     display: flex;
     flex-direction: row;
     width: 98vw;
-    margin-top: 10vh;
+    margin-top: 14vh;
 }
 
 .works-header{
@@ -231,6 +231,7 @@
         width: 98vw; /* Adjusted width to match flex basis */
         height: 70vh;
         margin-left: 5vw; /* Reduced margin */
+        margin-top: 4vh;
     }
 
     .card-work {

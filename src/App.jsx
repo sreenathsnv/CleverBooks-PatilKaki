@@ -8,6 +8,7 @@ import Services from './components/Services'
 import Carousel from './components/Carousel'
 import Founder from './components/Founder'
 import PopularWork from './components/PopularWork'
+import Footer from './components/Footer'
 
 
 function App() {
@@ -26,6 +27,7 @@ function App() {
       <Carousel/>
       <Founder/>
       <PopularWork/>
+      <Footer/>
     </>
   )
 }
