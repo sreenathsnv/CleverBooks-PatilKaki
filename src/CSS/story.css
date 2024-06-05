@@ -1,0 +1,224 @@
+.story-container{
+    display: flex;
+    flex-direction: row;
+    width: 90vw;
+    margin:5vw;
+    margin-top: 5vh;
+    transition: 2s;
+}
+
+.left-container{
+
+    display: flex;
+    flex-direction: column;
+    min-height: 40vh;
+    width:50vw
+}
+
+.story-contents{
+
+    font-size: 2.5vh;
+    text-align: justify;
+}
+.second-container{
+
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    width: 50vw;
+    margin-top: 5vh;
+}
+.profile{
+
+    display: flex;
+    flex-direction: row;
+    width:20vw;
+    margin-top: 4vh;
+}
+
+.profile img{
+
+    width:3.5vw;
+    height:3.5vw;
+    margin-right: 1vw;
+    border-radius: 50%;
+    margin-left: 0;
+}
+
+
+.profile-name{
+
+    font-size: 3vh;
+    font-weight: 600;
+}
+.brand-logo{
+
+    width:10vw;
+    height: 8vw;
+    overflow: hidden;
+}
+
+.action-bt{
+
+    display: flex;
+    flex-direction: row;
+    width:6vw;
+    margin-top: 3vh;
+}
+.action-bt a img{
+
+    width: 2vw;
+    height:2vw;
+    margin-left: 1vw;
+}
+.strory-card-container{
+
+    display: flex;
+    flex-direction: row;
+    margin-top: 10vh;
+    min-width: 35vw;
+}
+.card-story{
+
+    width:15vw;
+    height:17vh;
+    background: #f1e9fc;
+    border-radius: 5vh;
+    font-size: 2vh;
+    padding: 2vh 3vh;
+    text-align: center;
+    font-weight: 500;
+    margin-right: 2vw;
+    display:flex ;
+    flex-direction: column;
+    align-items: center;
+}
+
+.p-stylish{
+    background-image: linear-gradient(125deg, #9f6eed, #fc907e, #9f6eed, #fc907e) !important;
+    background-clip: text;
+    -webkit-background-clip: text;
+    color: transparent;
+    font-size: 4vh;
+}
+.b-stylish{
+
+    border: .4vh solid hsla(274, 59%, 66%, 1);
+}
+
+
+.right-container{
+
+    display: flex;
+    justify-content: center;
+    width:40vw;
+    min-height:20vh ;
+    overflow: hidden;
+    margin-left: 2vw;
+}
+.right-container img{
+    width: 25vw;
+    height:80vh;
+    border: 3px solid #9f6eed;
+    border-radius: 7vh;
+    object-fit: contain;
+    
+}
+
+.left{
+
+    transform: rotate(180deg);
+}
+
+@media screen and (max-width: 1075px) {
+
+    .story-container{
+
+        display: flex;
+        flex-direction: column-reverse;
+        width: 90vw;
+        margin-top: 5vh;
+        transition: 2s;
+        margin-left: 5vw;
+    }
+    .left-container, .right-container,.second-container,.right-container{
+        width: 90vw;
+        margin: 0;
+        align-items: center;
+    }
+    .story-contents{
+        font-size: 2vh;
+        margin: 0;
+    }
+    .profile{
+        width: 50vw;
+    }
+    .profile img{
+
+        width:12vw;
+        height:12vw;
+       
+    }
+    .profile-desc{
+        font-size: 2vh;
+    }   
+    .profile-name{
+    
+        font-size: 4vh;
+        font-weight: 600;
+    }
+    .brand-logo{
+    
+        width:25vw;
+        height: 20vw;
+        overflow: hidden;
+    }
+    .action-bt{
+
+        display: flex;
+        flex-direction: row;
+        width:40vw;
+        margin-top: 3vh;
+    }
+    .action-bt a img{
+    
+        width: 9vw;
+        height:9vw;
+        margin-left: 1vw;
+    }
+    .strory-card-container{
+        flex-wrap: wrap;
+        margin-top: 5vh;
+        min-width: 90vw;
+    }
+    .card-story{
+        width: 43vw;
+        height:10vh;
+        background: #f1e9fc;
+        border-radius: 2vh;
+        font-size: 2vh;
+        padding: 1vh 1vh;
+        text-align: center;
+        font-weight: 500;
+        margin-bottom: 3vh;
+        margin-right: 2vw;
+    }
+    .b-stylish{
+        height: 5vh;
+        border-radius: 4vh;
+        border: .4vh solid hsla(274, 59%, 66%, 1);
+    }
+    .right-container img{
+        width: 90vw;
+        height:40vh;
+        border: 3px solid #9f6eed;
+        border-radius: 7vh;
+        object-fit: contain;
+        margin-left: 0%;
+        margin-right: 0vh;
+        margin-bottom: 3vh;
+        
+    }
+
+
+}

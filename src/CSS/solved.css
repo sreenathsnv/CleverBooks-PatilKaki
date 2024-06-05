@@ -55,6 +55,9 @@
         font-size:2.5vh ;
 
     }
+    .solved-card-container{
+        margin: 2vw 0vw;    
+    }
     .card{
         width:80vw;
         height: 30vh;

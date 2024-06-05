@@ -9,7 +9,6 @@ import Swtantra from '../assets/marquee/swtantra.svg'
 import Sylvi from '../assets/marquee/sylvi.svg'
 import Tahilya from '../assets/marquee/tahilya.svg'
 import WorldTruth from '../assets/marquee/worldTruth.svg'
-import Zavya from '../assets/marquee/zavya.svg'
 
 const cardImage = [
             Pilgrim,
@@ -20,7 +19,6 @@ const cardImage = [
             Sylvi,
             Tahilya,
             WorldTruth,
-            Zavya,
 ]
 const MarqueeElement = () => {
   return (
