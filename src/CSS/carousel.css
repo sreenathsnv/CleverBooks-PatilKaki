@@ -1,0 +1,132 @@
+
+.carousel-container{
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 100vw;
+    background: #f2f2f2;
+    padding-top: 13vh;
+}
+
+.carousel-head{
+
+    font-size: 6vh;
+}
+.embla {
+    overflow: hidden;
+    
+    
+  }
+  .embla__container {
+    display: flex;
+    
+  }
+.embla-container-adder{
+
+    width: 65vw;
+    min-height: 80vh;
+    padding-top: 4vh;
+}
+  .embla__slide {
+    flex: 0 0 100%;
+    
+  }
+.embla-slide-adder{
+
+    margin-left: 3vw;
+}
+.carousels{
+    display: flex;
+    width: 60vw;
+    height:60vh;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    background: white;
+    border-radius: 3vh;
+}
+
+.carousels img{
+
+    width:24vw;
+    height:24vw;
+    margin: 2vw;
+
+  }
+.contents-carousel{
+
+    display: flex;
+    flex-direction: column;
+    width:33vw;
+    height:auto;
+  }
+.contents-carousel .carousel-content-head{
+
+    font-size: 3vh;
+    font-weight: 500;
+    margin-bottom: 2vh;
+}
+.action-bt-car{
+
+    background: transparent;
+    width:3vw;
+    height: 3vw;
+    border-radius: 50%;
+}
+.action-bt-car img{
+
+    margin-left: 0;
+
+}
+#next{
+
+    position: absolute;
+    top:50%;
+    right:20vw;
+}
+#prev{
+
+    position: absolute;
+    top:50%;
+    left:10vw;
+}
+@media screen and (max-width: 1075px) {
+
+    .carousel-head{
+        font-size: 3.5vh;
+    }
+    .embla-container-adder{
+
+        width: 95vw;
+        padding: 5vw;
+    }
+    .carousels{
+        display: flex;
+        width: 80vw;
+        height:30vh;
+        margin: 3vw;
+        
+    }
+    .contents-carousel{
+
+        display: flex;
+        flex-direction: column;
+        width:50vw;
+      }
+      #next{
+
+        position: absolute;
+        top:35%;
+        right:8vw;
+        z-index: 1;
+    }
+    #prev{
+    
+        position: absolute;
+        top:35%;
+        left:3vw;
+        z-index: 1;
+    }
+
+}
